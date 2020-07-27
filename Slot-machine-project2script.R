@@ -1,3 +1,4 @@
+#g et the symbols
 get_symbols <- function() {
   wheel <- c("DD", "7", "BBB", "BB", "B", "C", "0")
   sample(wheel, size = 3, replace = TRUE, 
@@ -30,6 +31,7 @@ play <- function() {
   symbols <- get_symbols()
   print(symbols)
   score(symbols)
+  # experimenting with codes
   if (symbols == c("DD","DD","DD"))
     print("Nice")
   else if (symbols != c("DD","DD","DD"))
