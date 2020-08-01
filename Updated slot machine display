@@ -30,7 +30,7 @@ score <- function(symbols) {
 # play the game
 play <- function() {
   symbols <- get_symbols()
-  structure(score(symbols), symbols = symbols)
+  structure(score(symbols), symbols = symbols, class = "slots")
 }
 
 slot_display <- function(prize){
