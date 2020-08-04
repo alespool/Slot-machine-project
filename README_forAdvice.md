@@ -1,2 +1,13 @@
 # Slot-machine-project
-Hi, if you want to help me by pointing out mistakes feel free to post your advices :)  
+
+3 files: 
+
+- Slot machine project in its entirety
+
+- Code with various slot machine probabilities
+
+- Vectorized version of slot machine project code
+
+ADDITIONAL:
+
+- Slot machine project modified by avhgenomics
